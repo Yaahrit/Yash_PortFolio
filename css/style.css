@@ -1,0 +1,124 @@
+html,
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  animation: fadeDown 1s ease-in-out;
+}
+
+@keyframes fadeDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.project-card {
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.project-card:hover {
+  transform: scale(1.03);
+}
+
+.project-card .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.project-card:hover .overlay {
+  opacity: 1;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+  color: #ccc;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #17a2b8;
+  box-shadow: 0 0 5px rgba(23, 162, 184, 0.5);
+}
+
+
+.scroll-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  width: 40px;
+  height: 40px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.skill-card {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.skill-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.4);
+}
+
+.progress {
+  height: 10px;
+  border-radius: 20px;
+}
+
+.progress-bar {
+  border-radius: 20px;
+}
+
+
+.project-box {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  height: 100%;
+  position: relative;
+}
+
+.project-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.project-box:hover .project-img {
+  transform: scale(1.1);
+}
+
+.project-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.75);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.project-box:hover .project-overlay {
+  opacity: 1;
+}

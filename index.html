@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yash Raj - PortFolio</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+
+  <!-- Google Fonts: Roboto -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-..." crossorigin="anonymous">
+
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+
+<body>
+
+  <!-- Navbar Start -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow sticky-top">
+    <div class="container">
+      <!-- Logo -->
+      <a class="navbar-brand fw-bold d-flex align-items-center" href="#home">
+        <span class="text-info fs-4 me-2">&lt;/&gt;</span>
+        Yash Raj
+      </a>
+
+      <!-- Toggler for mobile -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Nav items -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav text-uppercase align-items-lg-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+
+          <!-- Resume Preview (optional: preview only) -->
+          <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+            <a class="btn btn-outline-info"
+              href="https://drive.google.com/file/d/1AfopXaYzwxkZ1Fx9MywBEWxOgKb4eWFC/view?usp=drive_link"
+              target="_blank" rel="noopener noreferrer">
+              <i class="fas fa-eye me-1"></i> View Resume
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Navbar End -->
+
+  <!-- Home Section -->
+  <section id="home" class="vh-100 d-flex align-items-center bg-dark text-white">
+    <div class="container text-center">
+      <h3 class="animate__animated animate__fadeInDown">Hi 👋, There!</h3>
+      <h1 class="display-4 fw-bold animate__animated animate__fadeInUp mb-3">
+        I'm <span class="typewriter text-info">Yash Raj</span>
+      </h1>
+      <h4><span id="typed" class="text-warning fw-semibold"></span></h4>
+      <p class="lead mt-4 mx-auto" style="max-width: 700px;">
+        Hello!,I am a self-motivated Web Developer and a person slighty obsessed
+        for code quality. I'm passionate and hardworking with penchant for
+        meeting deadlines. Interested in exploring things and learning new
+        things. If I'll be hired by you then it would be a great pleasure for
+        me. I’m currently looking for opportunities. <a href="mailto:syashraj903@gmail.com" class="text-info">here</a>.
+      </p>
+      <a href="#about" class="btn btn-outline-light mt-4">
+        About Me <i class="fas fa-user ms-2"></i>
+      </a>
+    </div>
+  </section>
+  <!-- Home Section End -->
+
+  <!-- About Section -->
+  <section id="about" class="py-5 bg-dark text-white">
+    <div class="container">
+      <h1 class="text-center mb-5 animate__animated animate__fadeInDown">
+        <span class="text-info">About</span> Me
+      </h1>
+      <div class="row g-5 align-items-center">
+
+        <!-- About Bio -->
+        <div class="col-lg-6 animate__animated animate__fadeInLeft animate__delay-1s">
+          <div class="p-4 bg-black bg-opacity-50 shadow rounded">
+            <h2 class="mb-3 text-info">Who Am I?</h2>
+            <p class="mb-0">
+              I am <strong>Yash Raj</strong>, currently pursuing <strong>MCA</strong> from
+              <strong>GNIOT, Greater Noida</strong>. Previously, I graduated in <strong>BCA</strong>
+              from <strong>Mahesh Prasad Singh Science College, Muzaffarpur</strong>,
+              where I ranked in the top 10. I love learning, coding, and building meaningful software solutions.
+            </p>
+            <a href="#contact" class="btn btn-outline-info mt-4">Hire Me</a>
+          </div>
+        </div>
+
+        <!-- Stats / Counters -->
+        <div class="col-lg-6 animate__animated animate__fadeInRight animate__delay-1s">
+          <div class="row text-center g-4">
+            <div class="col-6">
+              <div class="bg-black bg-opacity-50 shadow rounded p-4">
+                <h2 class="text-info fw-bold">1+</h2>
+                <p class="mb-0 text-white-50">Years of Experience</p>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="bg-black bg-opacity-50 shadow rounded p-4">
+                <h2 class="text-info fw-bold">5+</h2>
+                <p class="mb-0 text-white-50">Projects Completed</p>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="bg-black bg-opacity-50 shadow rounded p-4">
+                <h2 class="text-info fw-bold">10+</h2>
+                <p class="mb-0 text-white-50">Happy Clients</p>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="bg-black bg-opacity-50 shadow rounded p-4">
+                <h2 class="text-info fw-bold">2+</h2>
+                <p class="mb-0 text-white-50">Awards Won</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About Section End -->
+
+  <!-- Education Section -->
+  <section id="education" class="py-5 bg-dark text-white">
+    <div class="container">
+      <h1 class="text-center mb-5 animate__animated animate__fadeInDown">
+        My <span class="text-info">Education</span>
+      </h1>
+
+      <div class="row g-4">
+        <!-- Each education card -->
+        <div class="col-md-6 col-lg-3 animate__animated animate__fadeInUp animate__delay-1s">
+          <div class="bg-black bg-opacity-50 p-4 rounded shadow text-center h-100">
+            <i class="fas fa-graduation-cap fa-2x text-info mb-3"></i>
+            <h5 class="fw-bold">Secondary (10th)</h5>
+            <p class="small mb-1 text-info">2018</p>
+            <p class="text-white-50">Completed 10th grade with 80%, building strong academic roots.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 animate__animated animate__fadeInUp animate__delay-2s">
+          <div class="bg-black bg-opacity-50 p-4 rounded shadow text-center h-100">
+            <i class="fas fa-graduation-cap fa-2x text-info mb-3"></i>
+            <h5 class="fw-bold">Senior Secondary (12th)</h5>
+            <p class="small mb-1 text-info">2020</p>
+            <p class="text-white-50">Passed with 81% in Science stream, setting the foundation for tech studies.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 animate__animated animate__fadeInUp animate__delay-3s">
+          <div class="bg-black bg-opacity-50 p-4 rounded shadow text-center h-100">
+            <i class="fas fa-graduation-cap fa-2x text-info mb-3"></i>
+            <h5 class="fw-bold">BCA</h5>
+            <p class="small mb-1 text-info">2020 – 2023</p>
+            <p class="text-white-50">Graduated with top-10 rank; built strong programming and database skills.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 animate__animated animate__fadeInUp animate__delay-4s">
+          <div class="bg-black bg-opacity-50 p-4 rounded shadow text-center h-100">
+            <i class="fas fa-graduation-cap fa-2x text-info mb-3"></i>
+            <h5 class="fw-bold">MCA</h5>
+            <p class="small mb-1 text-info">2024 – 2026</p>
+            <p class="text-white-50">Currently pursuing MCA at GNIOT to deepen technical specialization.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Education Section End -->
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-5 bg-dark text-white">
+    <div class="container">
+      <h1 class="text-center mb-5 animate__animated animate__fadeInDown">
+        My <span class="text-info">Expertise</span>
+      </h1>
+
+      <div class="row g-4 justify-content-center">
+
+        <!-- Frontend Skills -->
+        <div class="col-md-6 col-lg-4 animate__animated animate__fadeInUp">
+          <div class="card skill-card text-center border-0 shadow-lg rounded-4 p-4 h-100"
+            style="background: linear-gradient(135deg, #1f1f1f, #2a2a2a); transition: transform 0.3s ease;">
+            <div class="card-body">
+              <i class="fas fa-code fa-3x text-info mb-3"></i>
+              <h5 class="text-info mb-3">Frontend Development</h5>
+              <p class="small text-white-50 mb-4">
+                Expertise in building responsive and interactive user interfaces using HTML, CSS, JavaScript, and modern
+                frameworks like React.
+              </p>
+              <div>
+                <span class="badge bg-info text-dark me-1 mb-1">HTML</span>
+                <span class="badge bg-info text-dark me-1 mb-1">CSS</span>
+                <span class="badge bg-info text-dark me-1 mb-1">JavaScript</span>
+                <span class="badge bg-info text-dark me-1 mb-1">React</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Backend Skills -->
+        <div class="col-md-6 col-lg-4 animate__animated animate__fadeInUp animate__delay-1s">
+          <div class="card skill-card text-center border-0 shadow-lg rounded-4 p-4 h-100"
+            style="background: linear-gradient(135deg, #1f1f1f, #2a2a2a); transition: transform 0.3s ease;">
+            <div class="card-body">
+              <i class="fas fa-server fa-3x text-info mb-3"></i>
+              <h5 class="text-info mb-3">Backend Development</h5>
+              <p class="small text-white-50 mb-4">
+                Proficient in server-side technologies and frameworks such as PHP, Java, and Python, with experience in
+                API integrations and data processing.
+              </p>
+              <div>
+                <span class="badge bg-info text-dark me-1 mb-1">PHP</span>
+                <span class="badge bg-info text-dark me-1 mb-1">Java</span>
+                <span class="badge bg-info text-dark me-1 mb-1">Python</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Database Skills -->
+        <div class="col-md-6 col-lg-4 animate__animated animate__fadeInUp animate__delay-2s">
+          <div class="card skill-card text-center border-0 shadow-lg rounded-4 p-4 h-100"
+            style="background: linear-gradient(135deg, #1f1f1f, #2a2a2a); transition: transform 0.3s ease;">
+            <div class="card-body">
+              <i class="fas fa-database fa-3x text-info mb-3"></i>
+              <h5 class="text-info mb-3">Database Management</h5>
+              <p class="small text-white-50 mb-4">
+                Experienced in designing, managing, and optimizing relational and non-relational databases like MySQL
+                and MongoDB for scalable applications.
+              </p>
+              <div>
+                <span class="badge bg-info text-dark me-1 mb-1">MySQL</span>
+                <span class="badge bg-info text-dark me-1 mb-1">MongoDB</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tools & Languages -->
+        <div class="col-md-6 col-lg-4 animate__animated animate__fadeInUp animate__delay-3s">
+          <div class="card skill-card text-center border-0 shadow-lg rounded-4 p-4 h-100"
+            style="background: linear-gradient(135deg, #1f1f1f, #2a2a2a); transition: transform 0.3s ease;">
+            <div class="card-body">
+              <i class="fas fa-laptop-code fa-3x text-info mb-3"></i>
+              <h5 class="text-info mb-3">Languages & Tools</h5>
+              <p class="small text-white-50 mb-4">
+                Skilled in programming languages and essential tools that enhance development efficiency and
+                performance.
+              </p>
+              <div>
+                <span class="badge bg-info text-dark me-1 mb-1">C</span>
+                <span class="badge bg-info text-dark me-1 mb-1">C++</span>
+                <span class="badge bg-info text-dark me-1 mb-1">Git</span>
+                <span class="badge bg-info text-dark me-1 mb-1">VS Code</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Hover effect -->
+    <style>
+      .skill-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 255, 153, 0.3);
+      }
+    </style>
+  </section>
+
+  <!-- Skills Section End -->
+
+  <!-- Projects Section -->
+  <!-- Projects Section -->
+  <section id="projects" class="py-5 bg-dark text-light">
+    <div class="container">
+
+      <!-- Section Title -->
+      <div class="text-center mb-5">
+        <h2 class="fw-bold text-info">My Projects</h2>
+        <div class="underline-bar mx-auto mb-3"
+          style="width: 60px; height: 4px; background: #00ff99; border-radius: 4px;"></div>
+        <p class="text-muted">A selection of projects demonstrating my skills and expertise</p>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="row g-4">
+
+        <!-- Project Card Template -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card project-card h-100 border-0 shadow-lg bg-black bg-opacity-50 rounded-4">
+            <img src="images/proj.png" class="card-img-top rounded-top-4" alt="Portfolio Website">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title text-info">Portfolio Website</h5>
+              <p class="card-text text-white-50 flex-grow-1">
+                A personal portfolio built with HTML, Bootstrap, and JavaScript, featuring smooth scrolling and
+                animations.
+              </p>
+              <div class="mt-3">
+                <a href="https://yaahrit.netlify.app" target="_blank" class="btn btn-sm btn-outline-success me-2">Live
+                  Demo</a>
+                <a href="https://github.com/Yaahrit/portfolio" target="_blank" class="btn btn-sm btn-outline-info">View
+                  Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card project-card h-100 border-0 shadow-lg bg-black bg-opacity-50 rounded-4">
+            <img src="images/proj1.jpeg" class="card-img-top rounded-top-4" alt="Travel Booking App">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title text-info">Travel Booking App</h5>
+              <p class="card-text text-white-50 flex-grow-1">
+                Responsive travel booking platform built with React and Firebase for authentication and real-time data
+                handling.
+              </p>
+              <div class="mt-3">
+                <a href="#" class="btn btn-sm btn-outline-success me-2 disabled">Live Demo</a>
+                <a href="https://github.com/Yaahrit/Wanderland" target="_blank" class="btn btn-sm btn-outline-info">View
+                  Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card 3 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card project-card h-100 border-0 shadow-lg bg-black bg-opacity-50 rounded-4">
+            <img src="images/proj2.jpeg" class="card-img-top rounded-top-4" alt="Netflix Clone">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title text-info">Netflix Clone</h5>
+              <p class="card-text text-white-50 flex-grow-1">
+                A Netflix UI clone built with React and TMDB API, dynamically loading content with modern design
+                aesthetics.
+              </p>
+              <div class="mt-3">
+                <a href="#" class="btn btn-sm btn-outline-success me-2 disabled">Live Demo</a>
+                <a href="https://github.com/Yaahrit/netflix" target="_blank" class="btn btn-sm btn-outline-info">View
+                  Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Add more project cards here as needed -->
+
+      </div>
+
+      <!-- GitHub More Projects Button -->
+      <div class="text-center mt-5">
+        <a href="https://github.com/Yaahrit" target="_blank" class="btn btn-outline-info px-4 py-2 shadow">
+          <i class="fab fa-github me-2"></i>View More on GitHub
+        </a>
+      </div>
+
+    </div>
+
+    <!-- Additional CSS for hover effects -->
+    <style>
+      .project-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .project-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 20px rgba(0, 255, 153, 0.3);
+      }
+
+      .underline-bar {
+        transition: width 0.3s ease;
+      }
+
+      .underline-bar:hover {
+        width: 80px;
+      }
+    </style>
+
+  </section>
+  <!-- Projects Section End -->
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 bg-dark text-white">
+    <div class="container">
+      <h1 class="text-center mb-5 animate__animated animate__fadeInDown">
+        <span class="text-info">Contact</span> Me
+      </h1>
+
+      <div class="row justify-content-center">
+        <!-- Contact Info -->
+        <div class="col-md-5 mb-4 animate__animated animate__fadeInLeft">
+          <div class="bg-black bg-opacity-50 p-4 rounded shadow h-100">
+            <h5 class="text-info mb-3">Let's Connect</h5>
+            <p><i class="fas fa-envelope text-info me-2"></i> syashraj903@gmail.com</p>
+            <p><i class="fas fa-phone text-info me-2"></i> +91 6206117613</p>
+            <p><i class="fas fa-map-marker-alt text-info me-2"></i> Greater Noida, India</p>
+
+            <div class="mt-4">
+              <a href="https://github.com/Yaahrit" class="text-info me-3" target="_blank"><i
+                  class="fab fa-github fa-lg"></i></a>
+              <a href="https://www.linkedin.com/in/yashrajhub/" target="_blank" class="text-info me-3">
+                <i class="fab fa-linkedin fa-lg"></i>
+              </a>
+              <a href="mailto:syashraj903@gmail.com" class="text-info">
+                <i class="fas fa-envelope fa-lg"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="col-md-7 animate__animated animate__fadeInRight">
+          <form class="bg-black bg-opacity-50 p-4 rounded shadow" id="contactForm">
+            <div class="mb-3">
+              <label for="name" class="form-label text-white">Name</label>
+              <input type="text" class="form-control bg-transparent text-white border-secondary" id="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label text-white">Email</label>
+              <input type="email" class="form-control bg-transparent text-white border-secondary" id="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label text-white">Message</label>
+              <textarea class="form-control bg-transparent text-white border-secondary" id="message" rows="4"
+                required></textarea>
+            </div>
+            <button type="submit" class="btn btn-info w-100">Send Message</button>
+            <!-- Animated Alert -->
+            <div id="formStatus" class="alert mt-3 d-none animate__animated animate__fadeIn" role="alert"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Section End -->
+
+  <!-- Footer Section -->
+  <footer class="bg-dark bg-opacity-75 text-white pt-5 pb-3 mt-5 border-top border-secondary"
+    style="backdrop-filter: blur(10px);">
+    <div class="container text-center">
+
+      <!-- Social Icons -->
+      <div class="mb-4 animate__animated animate__fadeInUp">
+        <a href="https://github.com/Yaahrit" target="_blank" class="text-info me-3 hover-scale">
+          <i class="fab fa-github fa-lg"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/yashrajhub/" target="_blank" class="text-info me-3 hover-scale">
+          <i class="fab fa-linkedin fa-lg"></i>
+        </a>
+        <a href="mailto:syashraj903@gmail.com" class="text-info hover-scale">
+          <i class="fas fa-envelope fa-lg"></i>
+        </a>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="row justify-content-center">
+        <div class="col-md-6 animate__animated animate__fadeInUp">
+          <h5 class="text-info mb-3">Stay in Touch</h5>
+          <form class="d-flex flex-column gap-2">
+            <input type="email" class="form-control bg-transparent text-white border border-secondary"
+              placeholder="Your Email" required>
+            <button type="submit" class="btn btn-info">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Divider -->
+      <hr class="border-secondary my-4">
+
+      <!-- Copyright -->
+      <div class="text-center small">
+        &copy; 2025 <span class="text-info">Yash Raj</span>. All rights reserved.
+      </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button onclick="scrollToTop()" class="scroll-top-btn btn btn-info shadow rounded-circle">
+      <i class="fas fa-chevron-up text-white"></i>
+    </button>
+
+    <!-- Footer Hover Effect and Scroll Top Style -->
+    <style>
+      .hover-scale {
+        transition: transform 0.2s ease;
+      }
+
+      .hover-scale:hover {
+        transform: scale(1.2);
+      }
+
+      .scroll-top-btn {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        display: none;
+        z-index: 1000;
+        transition: opacity 0.3s ease;
+      }
+    </style>
+
+    <!-- Scroll to Top Script -->
+    <script>
+      window.addEventListener('scroll', function () {
+        const btn = document.querySelector('.scroll-top-btn');
+        if (window.scrollY > 300) {
+          btn.style.display = 'block';
+        } else {
+          btn.style.display = 'none';
+        }
+      });
+
+      function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    </script>
+  </footer>
+  <!-- Footer Section End -->
+
+  <!-- Scripts loaded in correct order -->
+
+  <!-- Bootstrap Bundle JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-..."
+    crossorigin="anonymous"></script>
+
+  <!-- jQuery (optional, if needed elsewhere) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- Typed.js Library (must be before script.js) -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.min.js"></script>
+
+  <!-- Your custom script -->
+  <script src="js/script.js"></script>
+
+  <!-- AOS Library -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- Typed.js Initialization -->
+  <script>
+    window.addEventListener("load", function () {
+      new Typed(".typewriter", {
+        strings: ["Developer.", "Designer.", "Learner."],
+        typeSpeed: 60,
+        backSpeed: 30,
+        backDelay: 2000,
+        loop: true
+      });
+    });
+  </script>
+</body>
+
+</html>
