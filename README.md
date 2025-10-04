@@ -8,9 +8,10 @@ Welcome to my personal portfolio website! This website showcases my skills, proj
 
 ---
 
-[![Website](https://img.shields.io/badge/Website-yashrajhub.netlify.app-blue?style=for-the-badge)](https://yashrajhub.netlify.app) <br/>
-[![GitHub](https://img.shields.io/badge/GitHub-Yaahrit-black?style=for-the-badge)](https://github.com/Yaahrit)<br/>
-[![Email](https://img.shields.io/badge/Email-syashraj903@gmail.com-red?style=for-the-badge)](mailto:syashraj903@gmail.com)<br/>
+[![Website](https://img.shields.io/badge/Website-yashrajhub.netlify.app-blue?style=for-the-badge)](https://yashrajhub.netlify.app)&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-Yaahrit-black?style=for-the-badge)](https://github.com/Yaahrit)&nbsp;
+[![Email](https://img.shields.io/badge/Email-syashraj903@gmail.com-red?style=for-the-badge)](mailto:syashraj903@gmail.com)
+
 
 
 ## **About Me**
