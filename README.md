@@ -106,9 +106,9 @@ Or send a message via the contact form on the website.
    git clone https://github.com/Yaahrit/portfolio.git
 ## **2.Navigate to the project directory:**
       cd portfolio
-3.Open index.html in a browser to view locally.
+## 3.Open index.html in a browser to view locally.##
 
-License
+## License.##
 This project is for personal portfolio purposes. You may use the code for learning and reference only.
 
 Made with ❤️ by Yash Raj
