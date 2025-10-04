@@ -1,6 +1,6 @@
 # Yash Raj - Portfolio Website
 
-![Portfolio Screenshot](images/portfolio-screenshot.png)
+![Portfolio Screenshot](yash.png)
 
 Welcome to my personal portfolio website! This website showcases my skills, projects, education, and contact information in a sleek, responsive, and interactive layout.
 
@@ -106,9 +106,9 @@ Or send a message via the contact form on the website.
    git clone https://github.com/Yaahrit/portfolio.git
 ## **2.Navigate to the project directory:**
       cd portfolio
-## 3.Open index.html in a browser to view locally.##
+## 3.Open index.html in a browser to view locally.
 
-## License.##
+## License.
 This project is for personal portfolio purposes. You may use the code for learning and reference only.
 
 Made with ❤️ by Yash Raj
