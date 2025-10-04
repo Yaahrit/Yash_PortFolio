@@ -8,11 +8,16 @@ Welcome to my personal portfolio website! This website showcases my skills, proj
 
 ---
 
+[![Website](https://img.shields.io/badge/Website-yashrajhub.netlify.app-blue?style=for-the-badge)](https://yashrajhub.netlify.app)
+[![GitHub](https://img.shields.io/badge/GitHub-Yaahrit-black?style=for-the-badge)](https://github.com/Yaahrit)
+[![Email](https://img.shields.io/badge/Email-syashraj903@gmail.com-red?style=for-the-badge)](mailto:syashraj903@gmail.com)
+
+
 ## **About Me**
 
 Hi! I am **Yash Raj**, a self-motivated web developer passionate about coding, building meaningful projects, and exploring new technologies. I am currently pursuing **MCA** from **GNIOT, Greater Noida**, and have previously completed **BCA** from **Mahesh Prasad Singh Science College, Muzaffarpur**.  
 
-I specialize in front-end and back-end development and enjoy building clean, efficient, and responsive applications. I am actively looking for opportunities to contribute and grow in the field of software development.
+I specialize in front-end and back-end development and enjoy building clean, efficient, and responsive applications. I am actively looking for opportunities to contribute and grow in the field of software development.I love learning new technologies, solving problems, and building meaningful software solutions.
 
 ---
 
