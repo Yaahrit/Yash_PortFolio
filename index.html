@@ -35,7 +35,8 @@
 <body>
 
   <!-- Navbar Start -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow"
+    style="position: fixed; top: 0; left: 0; width: 100%; z-index: 1030;">
     <div class="container">
       <!-- Logo -->
       <a class="navbar-brand fw-bold d-flex align-items-center" href="#home">
@@ -71,7 +72,7 @@
           <!-- Resume Preview (optional: preview only) -->
           <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
             <a class="btn btn-outline-info"
-              href="https://drive.google.com/file/d/1AfopXaYzwxkZ1Fx9MywBEWxOgKb4eWFC/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1urtjt_c2i44pInASdybx5RKUwM51sJmW/view?usp=drive_link"
               target="_blank" rel="noopener noreferrer">
               <i class="fas fa-eye me-1"></i> View Resume
             </a>
@@ -80,8 +81,6 @@
       </div>
     </div>
   </nav>
-
-
   <!-- Navbar End -->
 
   <!-- Home Section -->
@@ -99,9 +98,18 @@
         things. If I'll be hired by you then it would be a great pleasure for
         me. I’m currently looking for opportunities. <a href="mailto:syashraj903@gmail.com" class="text-info">here</a>.
       </p>
-      <a href="#about" class="btn btn-outline-light mt-4">
-        About Me <i class="fas fa-user ms-2"></i>
-      </a>
+      <!-- Buttons -->
+      <div class="mt-4 d-flex justify-content-center flex-wrap gap-3">
+        <!-- <a href="#about" class="btn btn-outline-light">
+          About Me <i class="fas fa-user ms-2"></i>
+        </a> -->
+        <a href="#projects" class="btn btn-success btn-lg px-4 py-2">
+          View Projects <i class="fas fa-code ms-2"></i>
+        </a>
+        <a href="#contact" class="btn btn-info btn-lg text-white px-4 py-2">
+          Get in Touch <i class="fas fa-envelope ms-2"></i>
+        </a>
+      </div>
     </div>
   </section>
   <!-- Home Section End -->
@@ -119,10 +127,12 @@
           <div class="p-4 bg-black bg-opacity-50 shadow rounded">
             <h2 class="mb-3 text-info">Who Am I?</h2>
             <p class="mb-0">
-              I am <strong>Yash Raj</strong>, currently pursuing <strong>MCA</strong> from
-              <strong>GNIOT, Greater Noida</strong>. Previously, I graduated in <strong>BCA</strong>
-              from <strong>Mahesh Prasad Singh Science College, Muzaffarpur</strong>,
-              where I ranked in the top 10. I love learning, coding, and building meaningful software solutions.
+              Hi, I'm <strong>Yash Raj</strong> — a passionate <strong>Java Developer</strong> and tech enthusiast
+              currently pursuing my
+              <strong>MCA</strong> at <strong>GNIOT, Greater Noida</strong>.
+              I love turning ideas into interactive, user-friendly web experiences and continuously exploring new
+              technologies that push my creativity and skills forward.
+              For me, coding isn’t just a skill — it’s a way to bring imagination to life.
             </p>
             <a href="#contact" class="btn btn-outline-info mt-4">Hire Me</a>
           </div>
@@ -194,7 +204,9 @@
             <i class="fas fa-graduation-cap fa-2x text-info mb-3"></i>
             <h5 class="fw-bold">BCA</h5>
             <p class="small mb-1 text-info">2020 – 2023</p>
-            <p class="text-white-50">Graduated with top-10 rank; built strong programming and database skills.</p>
+            <p class="text-white-50">I completed my Bachelor of Computer Applications (B.C.A.) at Mahesh Prasad Singh
+              Science College with a score of 77.9%. This program provided me with a solid foundation in computer
+              science principles, programming languages, and software development methodologies..</p>
           </div>
         </div>
 
@@ -203,7 +215,10 @@
             <i class="fas fa-graduation-cap fa-2x text-info mb-3"></i>
             <h5 class="fw-bold">MCA</h5>
             <p class="small mb-1 text-info">2024 – 2026</p>
-            <p class="text-white-50">Currently pursuing MCA at GNIOT to deepen technical specialization.</p>
+            <p class="text-white-50">Currently pursuing a Master of Computer Applications (M.C.A.) at GNIOT Group of
+              Institutions, I am deepening my understanding of advanced software development concepts, algorithms, and
+              data structures. This program is enhancing my skills in full-stack development, preparing me for complex
+              software engineering challenges.</p>
           </div>
         </div>
       </div>
@@ -215,88 +230,81 @@
   <section id="skills" class="py-5 bg-dark text-white">
     <div class="container">
       <h1 class="text-center mb-5 animate__animated animate__fadeInDown">
-        My <span class="text-info">Expertise</span>
+        Technical <span class="text-info">Skills</span>
       </h1>
 
       <div class="row g-4 justify-content-center">
 
-        <!-- Frontend Skills -->
+        <!-- Core Java -->
         <div class="col-md-6 col-lg-4 animate__animated animate__fadeInUp">
-          <div class="card skill-card text-center border-0 shadow-lg rounded-4 p-4 h-100"
-            style="background: linear-gradient(135deg, #1f1f1f, #2a2a2a); transition: transform 0.3s ease;">
-            <div class="card-body">
-              <i class="fas fa-code fa-3x text-info mb-3"></i>
-              <h5 class="text-info mb-3">Frontend Development</h5>
-              <p class="small text-white-50 mb-4">
-                Expertise in building responsive and interactive user interfaces using HTML, CSS, JavaScript, and modern
-                frameworks like React.
-              </p>
-              <div>
-                <span class="badge bg-info text-dark me-1 mb-1">HTML</span>
-                <span class="badge bg-info text-dark me-1 mb-1">CSS</span>
-                <span class="badge bg-info text-dark me-1 mb-1">JavaScript</span>
-                <span class="badge bg-info text-dark me-1 mb-1">React</span>
-              </div>
+          <div class="card skill-card border-0 shadow-lg rounded-4 p-4 h-100 text-start"
+            style="background: linear-gradient(135deg, #1f1f1f, #2a2a2a);">
+            <h5 class="text-info mb-3">Core Java</h5>
+            <div>
+              <span class="badge bg-info text-dark me-1 mb-1">Java 8/11/17</span>
+              <span class="badge bg-info text-dark me-1 mb-1">OOP</span>
+              <span class="badge bg-info text-dark me-1 mb-1">Collections Framework</span>
+              <span class="badge bg-info text-dark me-1 mb-1">Exception Handling</span>
+              <span class="badge bg-info text-dark me-1 mb-1">Multithreading</span>
             </div>
           </div>
         </div>
 
-        <!-- Backend Skills -->
+        <!-- Frameworks -->
         <div class="col-md-6 col-lg-4 animate__animated animate__fadeInUp animate__delay-1s">
-          <div class="card skill-card text-center border-0 shadow-lg rounded-4 p-4 h-100"
-            style="background: linear-gradient(135deg, #1f1f1f, #2a2a2a); transition: transform 0.3s ease;">
-            <div class="card-body">
-              <i class="fas fa-server fa-3x text-info mb-3"></i>
-              <h5 class="text-info mb-3">Backend Development</h5>
-              <p class="small text-white-50 mb-4">
-                Proficient in server-side technologies and frameworks such as PHP, Java, and Python, with experience in
-                API integrations and data processing.
-              </p>
-              <div>
-                <span class="badge bg-info text-dark me-1 mb-1">PHP</span>
-                <span class="badge bg-info text-dark me-1 mb-1">Java</span>
-                <span class="badge bg-info text-dark me-1 mb-1">Python</span>
-              </div>
+          <div class="card skill-card border-0 shadow-lg rounded-4 p-4 h-100 text-start"
+            style="background: linear-gradient(135deg, #1f1f1f, #2a2a2a);">
+            <h5 class="text-info mb-3">Frameworks</h5>
+            <div>
+              <span class="badge bg-info text-dark me-1 mb-1">Spring Framework</span>
+              <span class="badge bg-info text-dark me-1 mb-1">Spring Boot</span>
+              <span class="badge bg-info text-dark me-1 mb-1">Hibernate</span>
+              <span class="badge bg-info text-dark me-1 mb-1">JUnit</span>
+              <span class="badge bg-info text-dark me-1 mb-1">Maven</span>
             </div>
           </div>
         </div>
 
-        <!-- Database Skills -->
+        <!-- Databases -->
         <div class="col-md-6 col-lg-4 animate__animated animate__fadeInUp animate__delay-2s">
-          <div class="card skill-card text-center border-0 shadow-lg rounded-4 p-4 h-100"
-            style="background: linear-gradient(135deg, #1f1f1f, #2a2a2a); transition: transform 0.3s ease;">
-            <div class="card-body">
-              <i class="fas fa-database fa-3x text-info mb-3"></i>
-              <h5 class="text-info mb-3">Database Management</h5>
-              <p class="small text-white-50 mb-4">
-                Experienced in designing, managing, and optimizing relational and non-relational databases like MySQL
-                and MongoDB for scalable applications.
-              </p>
-              <div>
-                <span class="badge bg-info text-dark me-1 mb-1">MySQL</span>
-                <span class="badge bg-info text-dark me-1 mb-1">MongoDB</span>
-              </div>
+          <div class="card skill-card border-0 shadow-lg rounded-4 p-4 h-100 text-start"
+            style="background: linear-gradient(135deg, #1f1f1f, #2a2a2a);">
+            <h5 class="text-info mb-3">Databases</h5>
+            <div>
+              <span class="badge bg-info text-dark me-1 mb-1">MySQL</span>
+              <span class="badge bg-info text-dark me-1 mb-1">PostgreSQL</span>
+              <span class="badge bg-info text-dark me-1 mb-1">MongoDB</span>
+              <span class="badge bg-info text-dark me-1 mb-1">JDBC</span>
             </div>
           </div>
         </div>
 
-        <!-- Tools & Languages -->
+        <!-- Tools & Technologies -->
         <div class="col-md-6 col-lg-4 animate__animated animate__fadeInUp animate__delay-3s">
-          <div class="card skill-card text-center border-0 shadow-lg rounded-4 p-4 h-100"
-            style="background: linear-gradient(135deg, #1f1f1f, #2a2a2a); transition: transform 0.3s ease;">
-            <div class="card-body">
-              <i class="fas fa-laptop-code fa-3x text-info mb-3"></i>
-              <h5 class="text-info mb-3">Languages & Tools</h5>
-              <p class="small text-white-50 mb-4">
-                Skilled in programming languages and essential tools that enhance development efficiency and
-                performance.
-              </p>
-              <div>
-                <span class="badge bg-info text-dark me-1 mb-1">C</span>
-                <span class="badge bg-info text-dark me-1 mb-1">C++</span>
-                <span class="badge bg-info text-dark me-1 mb-1">Git</span>
-                <span class="badge bg-info text-dark me-1 mb-1">VS Code</span>
-              </div>
+          <div class="card skill-card border-0 shadow-lg rounded-4 p-4 h-100 text-start"
+            style="background: linear-gradient(135deg, #1f1f1f, #2a2a2a);">
+            <h5 class="text-info mb-3">Tools & Technologies</h5>
+            <div>
+              <span class="badge bg-info text-dark me-1 mb-1">Git/GitHub</span>
+              <span class="badge bg-info text-dark me-1 mb-1">IntelliJ IDEA</span>
+              <span class="badge bg-info text-dark me-1 mb-1">Eclipse</span>
+              <span class="badge bg-info text-dark me-1 mb-1">Docker</span>
+              <span class="badge bg-info text-dark me-1 mb-1">Jenkins</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Web Technologies -->
+        <div class="col-md-6 col-lg-4 animate__animated animate__fadeInUp animate__delay-4s">
+          <div class="card skill-card border-0 shadow-lg rounded-4 p-4 h-100 text-start"
+            style="background: linear-gradient(135deg, #1f1f1f, #2a2a2a);">
+            <h5 class="text-info mb-3">Web Technologies</h5>
+            <div>
+              <span class="badge bg-info text-dark me-1 mb-1">RESTful APIs</span>
+              <span class="badge bg-info text-dark me-1 mb-1">JSON</span>
+              <span class="badge bg-info text-dark me-1 mb-1">HTML/CSS</span>
+              <span class="badge bg-info text-dark me-1 mb-1">JavaScript</span>
+              <span class="badge bg-info text-dark me-1 mb-1">Thymeleaf</span>
             </div>
           </div>
         </div>
@@ -312,10 +320,9 @@
       }
     </style>
   </section>
-
   <!-- Skills Section End -->
 
-  <!-- Projects Section -->
+
   <!-- Projects Section -->
   <section id="projects" class="py-5 bg-dark text-light">
     <div class="container">
@@ -581,19 +588,6 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
-  </script>
-
-  <!-- Typed.js Initialization -->
-  <script>
-    window.addEventListener("load", function () {
-      new Typed(".typewriter", {
-        strings: ["Developer.", "Designer.", "Learner."],
-        typeSpeed: 60,
-        backSpeed: 30,
-        backDelay: 2000,
-        loop: true
-      });
-    });
   </script>
 </body>
 

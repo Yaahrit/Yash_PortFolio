@@ -3,6 +3,7 @@ body {
   overflow-x: hidden;
   overflow-y: auto;
   font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
 }
 
 .navbar {
