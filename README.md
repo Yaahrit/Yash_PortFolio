@@ -1,120 +1,90 @@
-# Yash Raj - Portfolio Website
+# Yash Raj | Java Backend Engineer
 
-![Portfolio Screenshot](yash.png)
-
-Welcome to my personal portfolio website! This website showcases my skills, projects, education, and contact information in a sleek, responsive, and interactive layout.
-
-**Live Demo:** [yashrajhub.netlify.app](https://yashrajhub.netlify.app)
-
----
-
-[![Website](https://img.shields.io/badge/Website-yashrajhub.netlify.app-blue?style=for-the-badge)](https://yashrajhub.netlify.app)&nbsp;
-[![GitHub](https://img.shields.io/badge/GitHub-Yaahrit-black?style=for-the-badge)](https://github.com/Yaahrit)&nbsp;
-[![Email](https://img.shields.io/badge/Email-syashraj903@gmail.com-red?style=for-the-badge)](mailto:syashraj903@gmail.com)
-
-
-
-## **About Me**
-
-Hi! I am **Yash Raj**, a self-motivated web developer passionate about coding, building meaningful projects, and exploring new technologies. I am currently pursuing **MCA** from **GNIOT, Greater Noida**, and have previously completed **BCA** from **Mahesh Prasad Singh Science College, Muzaffarpur**.  
-
-I specialize in front-end and back-end development and enjoy building clean, efficient, and responsive applications. I am actively looking for opportunities to contribute and grow in the field of software development.I love learning new technologies, solving problems, and building meaningful software solutions.
+<div align="center">
+  <img src="https://img.shields.io/badge/Java-17%2F21-orange?style=for-the-badge&logo=java" alt="Java" />
+  <img src="https://img.shields.io/badge/Spring--Boot-3.x-green?style=for-the-badge&logo=springboot" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/Architecture-Resilient-blue?style=for-the-badge" alt="Architecture" />
+  <img src="https://img.shields.io/badge/UI--UX-Premium-blueviolet?style=for-the-badge" alt="Premium UI" />
+</div>
 
 ---
 
-## **Features**
+## 🌟 Overview
+Welcome to my professional portfolio. I am a **Java Backend Engineer** (currently pursuing MCA at GNIOT) obsessed with code quality, scalable architectures, and elegant engineering. I specialize in building high-performance backend systems while maintaining a high standard of front-end aesthetics.
 
-- Fully responsive website, works on all screen sizes (mobile, tablet, desktop)
-- Smooth scrolling and animations using **Animate.css** and **AOS**
-- Typed.js animation for dynamic role display
-- Dark theme with modern UI design
-- Sections included:
-  - Home
-  - About
-  - Education
-  - Skills/Expertise
-  - Projects
-  - Contact
+**Live Experience:** [yashrajhub.netlify.app](https://yashrajhub.netlify.app)
 
 ---
 
-## **Skills Highlighted**
-
-### Frontend Development
-- HTML5, CSS3, JavaScript
-- Bootstrap 5
-- Responsive design
-- React (in projects)
-
-### Backend Development
-- Java
-- PHP
-- Python
-- API Integration
-
-### Database
-- MySQL
-- MongoDB
-
-### Tools & Languages
-- Git, VS Code
-- C, C++
+## 🚀 Premium UI/UX Features
+This portfolio isn't just a website; it's a showcase of modern web engineering:
+- **Glassmorphic Design**: Sleek, translucent card interfaces with backdrop blur effects.
+- **Dynamic Visuals**: Custom HSL-based color palette with interactive "Hero Glow" and "Section Glow" backgrounds.
+- **Micro-Animations**: Pulse effects, floating elements, and touch-responsive highlights for an immersive experience.
+- **Interactive Navigation**: 
+  - Fixed premium navbar with accessibility focus.
+  - Floating social sidebar for instant connectivity.
+  - Real-time scroll progress tracking.
+- **Scroll Engine**: Custom "Mouse Scroll" animations and smooth view-triggered transitions using **AOS**.
 
 ---
 
-## **Projects**
+## 🛠 Technical Arsenal
 
-1. **Portfolio Website**  
-   - Built with HTML, CSS, Bootstrap, and JavaScript.  
-   - Features smooth scrolling, responsive design, and dynamic animations.  
-   - **Live Demo:** [View](https://yaahrit.netlify.app)  
-   - **Code:** [GitHub](https://github.com/Yaahrit/portfolio)
+### **Backend Execution**
+- **Languages**: Java 17/21 (Advanced Core, Multi-threading, Streams)
+- **Frameworks**: Spring Boot (REST, Security, JPA/Hibernate)
+- **Architecture**: Microservices, SOLID Principles, Maven/Gradle
 
-2. **Travel Booking App**  
-   - Built with React and Firebase.  
-   - Handles authentication, real-time data, and responsive UI.  
-   - **Code:** [GitHub](https://github.com/Yaahrit/Wanderland)
+### **Database & Infrastructure**
+- **Primary**: PostgreSQL, MySQL
+- **Caching/NoSQL**: Redis, MongoDB
+- **DevOps**: Docker Containerization, CI/CD (Jenkins), Git/GitHub
 
-3. **Netflix Clone**  
-   - Built with React and TMDB API.  
-   - Dynamically fetches movies and shows with modern UI aesthetics.  
-   - **Code:** [GitHub](https://github.com/Yaahrit/netflix)
-
-*More projects available on [GitHub](https://github.com/Yaahrit).*
+### **Frontend Aesthetics**
+- **Core**: JavaScript (ES6+), HTML5, CSS3
+- **Styling**: Bootstrap 5, Custom Design Tokens, Animate.css
+- **Typography**: Outfit & Poppins (Modern spacing)
 
 ---
 
-## **Contact Me**
+## 📂 Engineering Showcase
 
-Feel free to reach out through email or social media:
+### 🚦 Smart Traffic Simulation
+*Java • Spring Boot • MySQL*
+- Engineered a scalable traffic flow simulation system with automated signal timing logic.
+- Implemented robust database layering using JPA/Hibernate for optimized data persistence.
 
-- Email: syashraj903@gmail.com
-- Phone: +91 6206117613
-- LinkedIn: [linkedin.com/in/yashrajhub](https://www.linkedin.com/in/yashrajhub/)
-- GitHub: [github.com/Yaahrit](https://github.com/Yaahrit)
+### 📝 Task Management API
+*Java • Spring Boot • Enterprise Patterns*
+- Designed a modular task orchestration system with a focus on high performance.
+- Features global exception handling and a strictly decoupled layered architecture.
 
-Or send a message via the contact form on the website.
-
----
-
-## **Technologies Used**
-
-- **Frontend:** HTML, CSS, JavaScript, Bootstrap, Animate.css, AOS
-- **Animations:** Typed.js
-- **Deployment:** Netlify
+### 🎓 Student Management System
+*Java • Clean Code Focused*
+- Architected a high-cycle student record platform adhering to SOLID principles.
+- Built for scalability and modularity in record processing operations.
 
 ---
 
-## **How to Use / Run Locally**
+## 📱 Mobile-First Optimization
+The entire platform is engineered for **flawless responsiveness**:
+- **Fixed Scroll Animations**: Optimized for all device sizes (Mobile, Tablet, Desktop).
+- **Touch Interaction**: UI elements designed for ergonomic touch navigation.
+- **Adaptive Breakpoints**: Custom media queries ensuring "Pixel Perfection" at every screen width.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Yaahrit/portfolio.git
-## **2.Navigate to the project directory:**
-      cd portfolio
-## 3.Open index.html in a browser to view locally.
+---
 
-## License.
-This project is for personal portfolio purposes. You may use the code for learning and reference only.
+## 📞 Let's Build Something Meaningful
 
-Made with ❤️ by Yash Raj
+<div align="center">
+  <a href="mailto:syashraj903@gmail.com"><img src="https://img.shields.io/badge/Email-Yash_Raj-red?style=for-the-badge&logo=gmail" /></a>
+  <a href="https://linkedin.com/in/yaahrit"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" /></a>
+  <a href="https://github.com/Yaahrit"><img src="https://img.shields.io/badge/GitHub-View_Code-black?style=for-the-badge&logo=github" /></a>
+</div>
+
+---
+<p align="center">
+  Made with ☕ and passion by <b>Yash Raj</b><br/>
+  © 2026 Portfolio Production
+</p>
