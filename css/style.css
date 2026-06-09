@@ -488,6 +488,49 @@ section {
   color: var(--text-secondary);
 }
 
+/* Circular Tech Icon Badges */
+.tech-icon-circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.06);
+  color: #ff6b9d;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+}
+
+.tech-icon-circle:hover {
+  background: rgba(255, 107, 157, 0.15);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 15px rgba(255, 107, 157, 0.2);
+}
+
+/* Project Action Buttons (Code / Live / Inquire) */
+.btn-project-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 22px;
+  border: 1.5px solid #ff6b9d;
+  border-radius: 30px;
+  color: #ff6b9d;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  background: transparent;
+}
+
+.btn-project-action:hover {
+  background: rgba(255, 107, 157, 0.1);
+  color: #ff8bb5;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(255, 107, 157, 0.2);
+}
+
 /* Education Timeline Styles */
 .edu-timeline {
   position: relative;
